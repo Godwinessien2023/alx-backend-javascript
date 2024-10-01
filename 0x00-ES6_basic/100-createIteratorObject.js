@@ -1,3 +1,6 @@
+#!/usr/bin/node
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
 export default function* createIteratorObject(report) {
   const { allEmployees } = report;
 
