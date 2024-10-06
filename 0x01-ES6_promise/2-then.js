@@ -1,3 +1,4 @@
+#!/usr/bin/node
 export default function handleResponseFromAPI(promise) {
     const body = { status: 200, body: 'success' };
   
