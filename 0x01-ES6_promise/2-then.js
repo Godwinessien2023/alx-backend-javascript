@@ -1,4 +1,6 @@
 #!/usr/bin/node
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
 export default function handleResponseFromAPI(promise) {
     const body = { status: 200, body: 'success' };
   

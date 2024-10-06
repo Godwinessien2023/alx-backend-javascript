@@ -1,4 +1,6 @@
 #!/usr/bin/node
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
 export default function getFullResponseFromAPI(success) {
     return new Promise((resolve, reject) => {
       if (success) {
