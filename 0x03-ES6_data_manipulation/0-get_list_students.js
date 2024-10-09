@@ -1,5 +1,5 @@
 #!/usr/bin/node
-/* eslint-disable no-console */
+/* eslint-disable */
 /* eslint-disable no-unused-vars */
 export default function getListStudents() {
     return [
