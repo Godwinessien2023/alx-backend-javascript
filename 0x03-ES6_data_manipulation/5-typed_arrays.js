@@ -8,3 +8,5 @@ const createInt8TypedArray = (length, position, value) => {
     int8Array[position] = value;
     return new DataView(buffer);
   };
+
+export default createInt8TypedArray;

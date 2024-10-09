@@ -10,4 +10,5 @@ const groceriesList = () => {
     map.set('Banana', 5);
     return map;
   };
-  
+
+export default groceriesList;
