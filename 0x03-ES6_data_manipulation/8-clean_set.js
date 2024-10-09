@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /* eslint-disable */
 /* eslint-disable no-unused-vars */
-export const cleanSet = (set, startString) => {
+const cleanSet = (set, startString) => {
     const strings = [];
   
     if (startString === '' || typeof startString !== 'string') return '';

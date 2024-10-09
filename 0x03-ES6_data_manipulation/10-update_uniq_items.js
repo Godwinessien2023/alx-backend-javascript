@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /* eslint-disable */
 /* eslint-disable no-unused-vars */
-export const updateUniqueItems = (items) => {
+const updateUniqueItems = (items) => {
     if (!(items instanceof Map)) {
       throw new Error('Cannot process');
     }
