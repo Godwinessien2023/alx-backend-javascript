@@ -1,8 +1,5 @@
-#!/usr/bin/node
-
-
-function displayMessage(message, string) {
-    console.log(message, string);
+function displayMessage(message) {
+    console.log(message);
 }
 
 module.exports = displayMessage;
